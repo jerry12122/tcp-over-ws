@@ -1,8 +1,8 @@
 # tcp-over-ws
-實現一個Server-Client架構，主要功能為tcp-over-websocket代理
-連接為 A服務-Client-Server-B服務
-Client-Server中間是websocket連接
-A服務-Client、Server-B服務則為tcp連接
+實現一個Server-Client架構，主要功能為tcp-over-websocket代理  
+連接為 A服務-Client-Server-B服務  
+Client-Server中間是websocket連接  
+A服務-Client、Server-B服務則為tcp連接  
 
 Client
 * 上面有一個tcp listener(tcp://127.0.0.1:3333)持續監聽
