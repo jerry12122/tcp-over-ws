@@ -7,7 +7,7 @@
 
 ## Client
 * 上面有一個TCP Listener(TCP://127.0.0.1:3333)持續監聽
-* 當TCP Listener有新的TCP Connection，才會建立新的WebSocket Connection(ws://code.server.jerry12122.me:8083/)
+* 當TCP Listener有新的TCP Connection，才會建立新的WebSocket Connection(ws://ws.local:8082/)
 * WebSocket Connection會持續連接到TCP Connection被斷開
 * 將TCP Connection 傳入的訊息Read出來輸出(log.Println)並Write到WebSocket Connection
 * TCP Connection WebSocket Connection 都不會主動斷開
